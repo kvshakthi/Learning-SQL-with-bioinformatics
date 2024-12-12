@@ -27,7 +27,7 @@ FOREIGN KEY (gene_id) REFERENCES genes(gene_id));
 
 # 3. data manipulation
 ## -- insert gene data
-INSERT INTO genes (gene_name, species, sequence, 
+INSERT INTO genes (gene_name, species, sequence,
 chromosome, start_position, end_position)
 VALUES ('BRCA1', 'Homo sapiens', 
 'ATGAC...', 17, 43124098, 43125482);
