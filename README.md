@@ -6,8 +6,9 @@
 USE bioinformatics_db
 
 ## 2. creating a table
-## -- gene info
+
  ## CREATE TABLE genes 
+    -- gene info
     (gene_id INT AUTO_INCREMENT PRIMARY KEY,
     gene_name VARCHAR(50) NOT NULL,
     species VARCHAR(50),
@@ -16,8 +17,8 @@ USE bioinformatics_db
     start_position INT,
     end_position INT);
 
-## -- proteien info
 ## CREATE TABLE proteins
+    -- protein info
     (protein_id INT AUTO_INCREMENT PRIMARY KEY,
     protein_name VARCHAR(50),
     gene_id INT,
