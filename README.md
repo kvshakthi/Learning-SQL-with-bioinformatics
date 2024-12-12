@@ -1,6 +1,6 @@
 # Learning-SQL-with-bioinformatics
 
-CREATE database bioinformatics_db;
+## 1.CREATE database bioinformatics_db;
 USE bioinformatics_db
 
 # -- 2. creating a table
