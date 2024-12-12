@@ -16,8 +16,9 @@ USE bioinformatics_db
 );
 
 ## -- proteien info
-CREATE TABLE proteins (
-protein_id INT AUTO_INCREMENT PRIMARY KEY,
+
+## CREATE TABLE proteins
+(protein_id INT AUTO_INCREMENT PRIMARY KEY,
 protein_name VARCHAR(50),
 gene_id INT,
 sequence TEXT,
