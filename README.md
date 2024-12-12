@@ -5,7 +5,7 @@ USE bioinformatics_db
 
 -- 2. creating a table
 -- gene info
-CREATE TABLE genes (
+ CREATE TABLE genes (
     gene_id INT AUTO_INCREMENT PRIMARY KEY,
     gene_name VARCHAR(50) NOT NULL,
     species VARCHAR(50),
