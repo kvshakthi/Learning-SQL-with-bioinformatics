@@ -1,11 +1,12 @@
 # Learning-SQL-with-bioinformatics
   Hear is the small effort of getting to know mysql and trying to implement with bioinformatics.  
 
-## 1.CREATE database bioinformatics_db;
+## 1.CREATE database 
+bioinformatics_db;
 USE bioinformatics_db
 
-# -- 2. creating a table
--- gene info
+## 2. creating a table
+## -- gene info
  ## CREATE TABLE genes 
     (gene_id INT AUTO_INCREMENT PRIMARY KEY,
     gene_name VARCHAR(50) NOT NULL,
