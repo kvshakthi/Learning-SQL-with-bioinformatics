@@ -2,7 +2,7 @@
   Hear is the small effort of getting to know mysql and trying to implement with bioinformatics.  
 
 ## 1.CREATE database 
-bioinformatics_db;
+
 USE bioinformatics_db
 
 ## 2. creating a table
