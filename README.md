@@ -6,15 +6,14 @@ USE bioinformatics_db
 
 # -- 2. creating a table
 -- gene info
- ## CREATE TABLE genes (
-    gene_id INT AUTO_INCREMENT PRIMARY KEY,
+ ## CREATE TABLE genes 
+    (gene_id INT AUTO_INCREMENT PRIMARY KEY,
     gene_name VARCHAR(50) NOT NULL,
     species VARCHAR(50),
     sequence TEXT,
     chromosome INT,
     start_position INT,
-    end_position INT
-);
+    end_position INT);
 
 ## -- proteien info
 ## CREATE TABLE proteins
