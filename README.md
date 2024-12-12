@@ -1,7 +1,8 @@
 # Learning-SQL-with-bioinformatics
   Hear is the small effort of getting to know mysql and trying to implement with bioinformatics.  
 
-## 1.CREATE database 
+## 1.CREATE database
+  CREATE bioinformatics_db
 
 USE bioinformatics_db
 
