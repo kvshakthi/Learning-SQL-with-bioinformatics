@@ -15,7 +15,7 @@ USE bioinformatics_db
     end_position INT
 );
 
--- proteien info
+## -- proteien info
 CREATE TABLE proteins (
 protein_id INT AUTO_INCREMENT PRIMARY KEY,
 protein_name VARCHAR(50),
@@ -24,8 +24,8 @@ sequence TEXT,
 length INT,
 FOREIGN KEY (gene_id) REFERENCES genes(gene_id));
 
--- 3. data manipulation
--- insert gene data
+# 3. data manipulation
+## -- insert gene data
 INSERT INTO genes (gene_name, species, sequence, 
 chromosome, start_position, end_position)
 VALUES ('BRCA1', 'Homo sapiens', 
